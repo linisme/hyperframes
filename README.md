@@ -74,6 +74,23 @@ npx hyperframes render       # render to MP4
 
 **Requirements:** Node.js >= 22, FFmpeg
 
+<!-- skillx:begin:setup-skillx -->
+## Try it with skillx
+
+[![Run with skillx](https://img.shields.io/badge/Run%20with-skillx-F97316)](https://skillx.run)
+
+Run these skills without installing anything:
+
+```bash
+skillx run --auto-approve https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes "Create a 15-second product intro with a fade-in title and background music."
+skillx run --auto-approve https://github.com/heygen-com/hyperframes/tree/main/skills/website-to-hyperframes "https://example.com"
+```
+
+Powered by [skillx](https://skillx.run) — fetch, scan, inject, and clean up any agent skill in one command.
+
+*Note: this command lets the agent act without per-step permission prompts. Only run if you trust the skill source. Drop `--auto-approve` if you'd rather approve each action manually.*
+<!-- skillx:end:setup-skillx -->
+
 ## Why Hyperframes?
 
 - **HTML-native** — compositions are HTML files with data attributes. No React, no proprietary DSL.
